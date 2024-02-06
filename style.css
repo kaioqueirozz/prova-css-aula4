@@ -1,0 +1,90 @@
+.header_box {
+    display: flex;
+    justify-content: center;
+    background-color: #fafafa;
+}
+.header_logo {
+    padding: 1em;
+    height: 80px;
+}
+.header_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    font-size: xx-large;
+    color: #003999;
+    font-weight: bolder;
+}
+
+.main_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5vh;
+    font-family: "poppins";
+}
+
+/* SECTION */
+.team_div {
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 300px;
+    margin-bottom: 5vh;
+    gap: 3vw;
+    padding: 4em;
+    border: 3px solid #003999;
+    border-radius: 20px;
+}
+
+.team_div_colocacao {
+    align-self: flex-start;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.team_logo {
+    max-height: 50vh;
+    max-width: 50vh;
+}
+
+.team_description {
+    height: 40vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.team_description_estadio {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.team_description_text {
+    text-align: justify;
+}
+
+.team_description_palmeiras {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #1b7930;
+}
+.team_description_gremio {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #00adee;
+}
+.team_description_atleticomg {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: black;
+}
+.team_description_flamengo {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #d2232a;
+}
